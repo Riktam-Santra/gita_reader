@@ -7,7 +7,7 @@ import 'package:http/http.dart' as http;
 import '../models/single_chapter.dart';
 import '../models/single_verse.dart';
 
-const apiKey = 'YOUR_API_KEY_HERE';
+const apiKey = '6d5546feafmshb18f7d5573f82cfp1a8c5cjsnc325c0d78d68';
 
 Future<SingleChapter> getParticularChapter(int id) async {
   final response = await http.get(
